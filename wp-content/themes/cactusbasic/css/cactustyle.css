@@ -1,0 +1,65 @@
+/*
+Theme Name: Cactusbasic 
+Description: Custom stylesheet 
+*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('../fonts/Roboto?family');
+@import url('../fonts/Montserrat-Bold.ttf');
+@import url('../fonts/DancingScript?family');
+
+html {
+  overflow-y: scroll;
+}
+
+html, 
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Lato', 'Ubuntu', 'Segoe UI', sans-serif, serif;
+  background: #f0f0f0;
+  color: #272121;
+}
+
+address,
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav {
+  background-color: #59886b;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topnav .navbar-brand {
+  font-family: 'Dancing Script', cursive;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover,
+.topnav a.active {
+  color: #ffc85c;
+}

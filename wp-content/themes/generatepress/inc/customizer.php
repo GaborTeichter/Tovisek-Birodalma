@@ -1451,7 +1451,7 @@ if ( ! function_exists( 'generate_customize_register' ) ) {
 
 		$show_flexbox_option = true;
 
-		if ( defined( 'GP_PREMIUM_VERSION' ) && version_compare( GP_PREMIUM_VERSION, '1.11.0-alpha.1', '<' ) ) {
+		if ( defined( 'GP_PREMIUM_VERSION' ) && version_compare( 'GP_PREMIUM_VERSION', '1.11.0-alpha.1', '<' ) ) {
 			$show_flexbox_option = false;
 		}
 

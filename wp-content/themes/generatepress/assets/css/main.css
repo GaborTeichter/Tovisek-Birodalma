@@ -59,6 +59,8 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: #f0f0f0;
+	color: #222;
 }
 
 /**
@@ -777,6 +779,8 @@ nav ul ul .menu-item-has-children .dropdown-menu-toggle,
 --------------------------------------------------------------*/
 .site-header {
 	position: relative;
+	background-color: #59886b;
+	color: #f1f1f1;
 }
 
 .inside-header {
@@ -788,8 +792,13 @@ nav ul ul .menu-item-has-children .dropdown-menu-toggle,
 	font-size: 25px;
 	line-height: 1.2em;
 	word-wrap: break-word;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	text-transform: none;
+}
+
+.main-title:hover {
+	color: #ffc85c;
 }
 
 .site-description {

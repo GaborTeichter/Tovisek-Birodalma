@@ -311,7 +311,7 @@ function generate_do_pro_compatibility() {
 
 	$css = new GeneratePress_CSS();
 
-	if ( version_compare( GP_PREMIUM_VERSION, '1.11.0-alpha.1', '<' ) ) {
+	if ( version_compare( 'GP_PREMIUM_VERSION', '1.11.0-alpha.1', '<' ) ) {
 		if ( generate_is_using_flexbox() && defined( 'GENERATE_SECONDARY_NAV_VERSION' ) ) {
 			$css->set_selector( '.secondary-navigation .inside-navigation:before, .secondary-navigation .inside-navigation:after' );
 			$css->add_property( 'content', '"."' );
@@ -328,7 +328,7 @@ function generate_do_pro_compatibility() {
 		}
 	}
 
-	if ( version_compare( GP_PREMIUM_VERSION, '1.12.0-alpha.1', '<' ) ) {
+	if ( version_compare( 'GP_PREMIUM_VERSION', '1.12.0-alpha.1', '<' ) ) {
 		if ( defined( 'GENERATE_MENU_PLUS_VERSION' ) && function_exists( 'generate_menu_plus_get_defaults' ) ) {
 			$menu_plus_settings = wp_parse_args(
 				get_option( 'generate_menu_plus_settings', array() ),

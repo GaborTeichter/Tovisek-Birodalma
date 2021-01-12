@@ -28,6 +28,9 @@
 /*--------------------------------------------------------------
 # Reset
 --------------------------------------------------------------*/
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 html,
 body,
 div,
@@ -94,6 +97,8 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+	background-color: #f0f0f0;
+	color: #272121;
 }
 
 article,
