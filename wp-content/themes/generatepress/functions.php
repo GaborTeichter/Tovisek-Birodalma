@@ -47,20 +47,11 @@ if ( ! function_exists( 'generate_setup' ) ) {
 		);
 
 		// Register primary menu.
-		/*register_nav_menus(
+		register_nav_menus(
 			array(
 				'primary' => __( 'Primary Menu', 'generatepress' ),
 			)
-		);*/
-
-		//Bootstrap navigation menu
-		require_once('assets/wp-bootstrap-navwalker/wp-bootstrap-navwalker.php');
-
-		// Custom navigation menu
-		function custom_menu() {
-		  register_nav_menu('custom-menu',__( 'Custom Menu' ));
-		}
-		add_action( 'init', 'custom_menu' );
+		);
 
 		/**
 		 * Set the content width to something large
