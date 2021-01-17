@@ -1,2 +1,2 @@
 # Tovisek-Birodalma
-This is a responsive gardening website.
+This is a WordPress based responsive gardening website.
