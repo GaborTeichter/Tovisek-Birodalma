@@ -73,7 +73,7 @@
         <header>
             <!--Navigation bar -->
             <div class="topnav" id="topNavbar">
-                <a class="navbar-brand" href="#home">
+                <a class="navbar-brand" href="index.php">
                     Tövisek Birodalma
                 </a>
 
@@ -89,9 +89,9 @@
                         )
                     ); */ 
                 ?> 
-                <a href="#home">Főoldal</a>
+                <a href="index.php">Főoldal</a>
                 <a href="#rolunk">Rólunk</a>
-                <a href="#kapcsolat">Kapcsolat</a>
+                <a href="#kapcsolatok">Kapcsolatok</a>
                 <a href="#termekek">Termékek</a>
                 <a href="#gyik">GYIK</a>
                 <a href="#blog">Blog</a>
@@ -100,10 +100,18 @@
                 </a>
             </div>
             <!-- Navigation bar end -->
-            <br>
-            <div class="welcome-header">
-                <h1 class="main-title">Üdvözlünk a Tövisek Birodalmában!</h1>
-            </div>
+
+            <!--<div class="welcome-header">-->
+                <div class="jumbotron welcome-header">
+                    <h1 class="display-4 masthead-heading text-uppercase">Tövisek Birodalma</h1>
+                    <p class="lead masthead-subheading">Üdvözöllek az oldalamon. Nézd meg a termékeinket vagy kövess minket facebookon!</p>
+                    <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#services">Vásárlás</a>
+				    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451">Facebook</a>
+                </div>
+            <!--</div>-->
         </header>
         <!-- Header section end -->
 
+
+    </body>
+</html>
