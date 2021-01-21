@@ -17,6 +17,7 @@ CactusBasic is distributed under the terms of the GNU GPL
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 :root {
     --green: #59886b;
@@ -51,7 +52,7 @@ body {
 }
 
 body {
-    background-color: #f8f8ff;
+    background-color: #fff;
     color: #333;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -73,7 +74,7 @@ header {
 }
 
 .topnav .navbar-brand {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lobster', cursive;
     color: #f8f8ff;
     font-size: 24px;
     padding: 10px 15px;
@@ -205,17 +206,54 @@ header {
     }
 /* Menu end */
 
+
+/* Header */
 .welcome-header {
-    text-align: center;
-    padding: 25px;
+  text-align: center;
+  padding: 25px;
+  padding-top: 14.5rem;
+  padding-bottom: 8rem;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("./assets/img/kaktusz-header.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
+
 .main-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
-/*
-  Header end
-*/
+
+
+.masthead-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 1rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 3rem;
+  margin-bottom: 20px;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+/* Header end */
 
 h2,
 h3 {
@@ -241,8 +279,68 @@ footer {
   color: #eee;
   margin-top: 25px;
   padding: 10px;
-  position: fixed;
+ /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;
 }
+
+.footer-link{
+  text-decoration: none;
+  color: #eee;
+}
+
+.footer-link:hover{
+  text-decoration: none;
+  color: #ffc85c;
+}
+
+/* footer end */
+
+/* front-page */
+
+.bg-light {
+  background-color: #f5f4f4 !important;
+}
+
+.page-section {
+  padding: 6rem 0;
+}
+
+
+
+/* front-page end */
+
+/* product card */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #59886b;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* product card end */
