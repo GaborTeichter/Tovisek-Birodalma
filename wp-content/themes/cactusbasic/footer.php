@@ -19,20 +19,23 @@
 
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Links</h5>
+                <h5 class="text-uppercase">Információk</h5>
 
                 <ul class="list-unstyled mb-0">
                 <li>
-                    <a href="#!" class="text-dark">Link 1</a>
+                    <a href="#!" class="text-dark">Általános Szerződési Feltételek</a>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">Link 2</a>
+                    <a href="#!" class="text-dark">Adatvédelmi Szabályzat</a>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">Link 3</a>
+                    <a href="#!" class="text-dark">GYIK</a>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">Link 4</a>
+                    <a href="#!" class="text-dark">Fizetési módok</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-dark">Termék visszaküldés</a>
                 </li>
                 </ul>
             </div>
@@ -40,7 +43,7 @@
 
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase mb-0">Links</h5>
+                <h5 class="text-uppercase mb-0">Kapcsolatok</h5>
 
                 <ul class="list-unstyled">
                 <li>
@@ -66,7 +69,7 @@
 
         <!-- Copyright -->
          <div class="footer-copyright text-center py-3">© 2021 Copyright: 
-         <a href="index.php"> Tövisek Birodalma</a>
+         <a class="footer-link" href="index.php"> Tövisek Birodalma</a>
          </div>
         <!-- Copyright -->
 
