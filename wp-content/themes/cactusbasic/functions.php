@@ -1,8 +1,10 @@
 <?php 
 
+// Dynamic theme supports
 function cactusbasic_theme_support(){
-    // Adds dynamic title tag support
     add_theme_support('title-tag');
+    add_theme_support('custom-logo');
+    add_theme_support('post-thumbnails');
 }
 
 add_action('after_setup_theme', 'cactusbasic_theme_support');
@@ -11,7 +13,7 @@ add_action('after_setup_theme', 'cactusbasic_theme_support');
 function cactusbasic_menus(){
     
     $locations = array(
-        'primary' => "Desktop Primary",
+        'primary' => "Primary Menu",
         'footer' => 'Footer Menu Items'
     );
 
@@ -43,5 +45,27 @@ function cactusbasic_register_scripts(){
 }
 
 add_action( 'wp_enqueue_scripts', 'cactusbasic_register_scripts' );
+
+// Widgets
+function cactusbasic_widget_areas(){
+
+    register_sidebar(
+        array(
+            'before_title' => '<h4>',
+            'after_title' => '</h4>',
+            'before_widget' => '',
+            'after_widget' => '',
+        ),
+        array(
+            'name' => 'Sidebar Area',
+            'id' => 'sidebar-1',
+            'desc' => 'Sidebar Widget Area'
+        )
+
+    );
+
+}
+
+add_action( 'widgets_init', 'cactusbasic_widget_areas' );
 
 ?>

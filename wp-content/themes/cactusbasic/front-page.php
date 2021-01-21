@@ -3,7 +3,8 @@
 ?>
 
 <!-- Main content -->
-<div class="main container fluid">
+<div class="main container-fluid">
+
     <article>
 
     <?php 

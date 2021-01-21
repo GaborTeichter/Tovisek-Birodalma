@@ -230,7 +230,7 @@ h3 {
 */
 .main {
   min-height: 50%;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 /* 
@@ -239,6 +239,7 @@ h3 {
 footer {
   background-color: #59886b;
   color: #eee;
+  margin-top: 25px;
   padding: 10px;
   position: fixed;
   left: 0;

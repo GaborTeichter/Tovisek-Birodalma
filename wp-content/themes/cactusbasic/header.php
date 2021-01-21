@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="hu-HU">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="Üdvözlünk a Tövisek Birodalmában! Cégünk tövisek nevelésével és eladásával foglalkozik. Category: Business">
