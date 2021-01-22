@@ -59,7 +59,7 @@
                     </div>
 
                     <div class="card">
-                        <img src="\assets\img\pozsgas-card.jpg" alt="kaktusz-card.jpg" style="width:100%">
+                        <img src="img/pozsgas-card.jpg" alt="pozsgas-card.jpg" style="width:100%">
                         <h1>Pozsgások</h1>
                         <p>Tekintsd meg pozsgásaink széles választékát!</p>
                         <p><button>Megnézem</button></p>
