@@ -52,7 +52,7 @@
                
                 <div class="row">
                     <div class="card">
-                        <img src="..\assets\img\kaktusz-card.jpg" alt="kaktusz-card.jpg" style="width:100%">
+                        <img src=".\assets\img\kaktusz-card.jpg" alt="kaktusz-card.jpg" style="width:100%">
                         <h1>Kaktuszok</h1>
                         <p>Tekintsd meg kaktuszaink széles választékát!</p>
                         <p><button>Megnézem</button></p>
