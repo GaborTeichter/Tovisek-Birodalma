@@ -49,7 +49,7 @@
             <div class="container-fluid">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Termékek</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Válasszon folyamatosan bővülő kínálatunk közül.</h3>
                 </div>
                
                 <div class="row">
@@ -73,10 +73,13 @@
         <!-- Termékek end -->
 
         <!-- Facebook section -->
-
+        <div class="container">
+            <div class="text-center">
+            <h1>Kövess minket!</h1>
+            </div>
+        </div>
         <div class="container-fluid facebook-section p-3 my-3">
             <div class="text-center">
-                <h1>Kövess minket!</h1><br>
                 <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451"><button type="button" class="btn btn-primary btn-lg">Facebook</button></a>
             </div>
         </div>
