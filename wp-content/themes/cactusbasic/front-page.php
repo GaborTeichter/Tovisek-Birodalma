@@ -2,6 +2,8 @@
     get_header();
 ?>
 
+
+
 <!-- Main content -->
 <div class="main container-fluid">
 
@@ -44,7 +46,7 @@
 
         <!-- Termékek -->
         <section class="page-section bg-light">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Termékek</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -69,6 +71,15 @@
             </div>
         </section>
         <!-- Termékek end -->
+
+        <!-- Facebook section -->
+
+        <div class="container-fluid facebook-section">
+            <h1>My First Bootstrap Page</h1>
+            <p>This is some text.</p>
+        </div>
+
+        <!-- Facebook section end -->
 
          <!-- Kapcsolatok -->
         
