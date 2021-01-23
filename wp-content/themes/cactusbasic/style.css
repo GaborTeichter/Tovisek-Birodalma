@@ -300,7 +300,12 @@ footer {
 /* front-page */
 
 .bg-light {
-  background-color: #f5f4f4 !important;
+  /*background-color: #f5f4f4 !important;*/
+  background-image: url("./assets/img/wave.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
 .page-section {

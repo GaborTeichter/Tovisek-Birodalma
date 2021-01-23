@@ -44,7 +44,7 @@
 
         <!-- Termékek -->
         <section class="page-section bg-light">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Termékek</h2>
                     <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
@@ -57,7 +57,7 @@
                         <p>Tekintsd meg kaktuszaink széles választékát!</p>
                         <p><button>Megnézem</button></p>
                     </div>
-
+                
                     <div class="card">
                         <img src="wp-content/themes/cactusbasic/assets/img/pozsgas-card.jpg" alt="pozsgas-card.jpg" style="width:100%">
                         <h1>Pozsgások</h1>
