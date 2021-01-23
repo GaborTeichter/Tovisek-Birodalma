@@ -71,33 +71,12 @@
         <!-- Termékek end -->
 
          <!-- Kapcsolatok -->
-         <section class="page-section" id="kapcsolatok">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Kapcsolatok</h2>
-                    <h3 class="section-subheading text-muted">Ha kérdésed van vedd fel velünk a kapcsoatot.</h3>
-                </div>
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e-mail cím">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputName">Név</label>
-                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="név">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Üzenet</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                  
-                    <button type="submit" class="btn btn-primary">Küldés</button>
-                </form>
-            </div>
-        </section>
-        <!-- Kapsolatok end -->
-        <br><br>
+        
+            
+            <?php echo do_shortcode( '[contact-form-7 id="9" title="Kapcsolatok"]' ); ?>
 
+       
+        <!-- Kapsolatok end -->
 </div>
 
 <!-- Footer section -->

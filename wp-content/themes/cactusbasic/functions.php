@@ -41,6 +41,8 @@ function cactusbasic_register_scripts(){
     // wp_enqueue_script( 'cactusbasic-popper', get_template_directory_uri() . "/node_modules/popper/dist/popper.min.js", array(), '1.16.1', true );
     wp_enqueue_script( 'cactusbasic-bundle', get_template_directory_uri() . "/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", array(), '4.5.3', true );
     wp_enqueue_script( 'cactusbasic-main', get_template_directory_uri() . "/assets/js/main.js", array(), '1.0', true );
+   // Google Map API
+    wp_enqueue_script( 'cactusbasic-map', get_template_directory_uri() . "https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap", array(), '', true );
     
 }
 

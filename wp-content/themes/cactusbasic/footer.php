@@ -7,13 +7,8 @@
             <div class="row">
             <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Footer Content</h5>
-
-                <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-                voluptatem veniam, est atque cumque eum delectus sint!
-                </p>
+                
+                <div id="googleMap" style="width:50px;height:50px;"></div>
             </div>
             <!--Grid column-->
 
@@ -23,19 +18,19 @@
 
                 <ul class="list-unstyled mb-0">
                 <li>
-                    <a href="#!" class="text-dark">Általános Szerződési Feltételek</a>
+                    <a href="#!" class="footer-link">Általános Szerződési Feltételek</a>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">Adatvédelmi Szabályzat</a>
+                    <a href="#!" class="footer-link">Adatvédelmi Szabályzat</a>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">GYIK</a>
+                    <a href="#!" class="footer-link">GYIK</a>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">Fizetési módok</a>
+                    <a href="#!" class="footer-link">Fizetési módok</a>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">Termék visszaküldés</a>
+                    <a href="#!" class="footer-link">Termék visszaküldés</a>
                 </li>
                 </ul>
             </div>
@@ -44,19 +39,16 @@
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                 <h5 class="text-uppercase mb-0">Kapcsolatok</h5>
-
+                
                 <ul class="list-unstyled">
                 <li>
-                    <a href="#!" class="text-dark">Link 1</a>
+                    <p><i class="fa fa-envelope mr-3"></i>tovisek.birodalma@gmail.com</p>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">Link 2</a>
+                    <p><i class="fa fa-phone mr-3"></i>06 (20) 551 6214</p>
                 </li>
                 <li>
-                    <a href="#!" class="text-dark">Link 3</a>
-                </li>
-                <li>
-                    <a href="#!" class="text-dark">Link 4</a>
+                    <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451" class="fa fa-facebook"></a>
                 </li>
                 </ul>
             </div>
@@ -68,7 +60,7 @@
 
 
         <!-- Copyright -->
-         <div class="footer-copyright text-center py-3">© 2021 Copyright: 
+         <div class="footer-copyright text-center py-3">© <?php echo date("Y"); ?> Copyright:  
          <a class="footer-link" href="index.php"> Tövisek Birodalma</a>
          </div>
         <!-- Copyright -->
