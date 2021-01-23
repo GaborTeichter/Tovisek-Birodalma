@@ -16,6 +16,7 @@ $(document).ready(function () {
     });
 });
 
+/*
 //Google Map API
 function myMap() {
   var mapProp= {
@@ -24,7 +25,7 @@ function myMap() {
   };
   var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
   }
-
+*/
   
   //Coming soon
   

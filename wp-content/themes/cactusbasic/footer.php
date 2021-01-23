@@ -8,7 +8,7 @@
             <!--Grid column-->
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 
-                <div id="googleMap" style="width:50px;height:50px;"></div>
+            
             </div>
             <!--Grid column-->
 
