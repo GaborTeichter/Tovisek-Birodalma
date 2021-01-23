@@ -74,9 +74,11 @@
 
         <!-- Facebook section -->
 
-        <div class="container-fluid facebook-section">
-            <h1>My First Bootstrap Page</h1>
-            <p>This is some text.</p>
+        <div class="container-fluid facebook-section p-3 my-3">
+            <div class="text-center">
+                <h1>Kövess minket!</h1><br>
+                <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451"><button type="button" class="btn btn-primary btn-lg">Facebook</button></a>
+            </div>
         </div>
 
         <!-- Facebook section end -->
