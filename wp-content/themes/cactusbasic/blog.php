@@ -1,4 +1,7 @@
+<!doctype html>
 
+<html>
+<body>
 
 <div class="bgimg">
   <div class="topleft">
@@ -14,3 +17,11 @@
   </div>
 </div>
 
+
+
+<?php
+    wp_footer();
+?>
+
+</body>
+</html>

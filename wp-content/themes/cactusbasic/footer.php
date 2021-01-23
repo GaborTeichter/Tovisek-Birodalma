@@ -48,7 +48,7 @@
                     <p><i class="fa fa-phone mr-3"></i>06 (20) 551 6214</p>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451" class="fa fa-facebook"></a>
+                    <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451"><i class="fa fa-twitter fa-stack-1x"></i></a>
                 </li>
                 </ul>
             </div>
@@ -56,7 +56,7 @@
             </div>
             <!--Grid row-->
         </div>
-        <!-- Grid container -->
+        <!-- Grid container -->    
 
 
         <!-- Copyright -->

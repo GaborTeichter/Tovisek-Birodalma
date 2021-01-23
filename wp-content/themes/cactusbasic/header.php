@@ -94,7 +94,7 @@
                 <a href="#kapcsolatok">Kapcsolatok</a>
                 <a href="#termekek">Termékek</a>
                 <a href="#gyik">GYIK</a>
-                <a href="blog.php">Blog</a>
+                <a href="wp-content/themes/cactusbasic/blog.php">Blog</a>
                 <a href="javascript:void(0);" class="icon" onclick="hamburger()">
                     <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
                 </a>
