@@ -300,7 +300,12 @@ footer {
 /* front-page */
 
 .bg-light {
-  background-color: #f5f4f4 !important;
+  /*background-color: #f5f4f4 !important;*/
+  background-image: url("./assets/img/wave.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
 .page-section {
@@ -344,3 +349,128 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 /* product card end */
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Style all font awesome icons end */
+
+
+/* Contact-btn */
+
+.contact-btn{
+  background-color: #0275d8;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 20%;
+  height: 12%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact-btn:hover{
+  background-color: #095394;;
+  color: white;
+}
+
+/* Contact-btn end */
+
+/* Conming soon */
+
+.bgimg {
+  /* Background image */
+  background-image: url('/w3images/forestbridge.jpg');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+/* Conming soon end */
+
+/* Facebook section */
+.facebook-section{
+  background-image: url("./assets/img/facebook-section.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+}
+
+/* Facebook section end*/
