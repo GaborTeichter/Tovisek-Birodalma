@@ -80,7 +80,7 @@
         </div>
         <div class="container-fluid facebook-section p-3 my-3">
             <div class="text-center">
-                <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451"><button type="button" class="btn btn-primary btn-lg">Facebook</button></a>
+                <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451" target="_blank"><button type="button" class="btn btn-primary btn-lg">Facebook</button></a>
             </div>
         </div>
 
@@ -89,7 +89,7 @@
          <!-- Kapcsolatok -->
         
             
-            <?php echo do_shortcode( '[contact-form-7 id="9" title="Kapcsolatok"]' ); ?>
+        <?php echo do_shortcode( '[contact-form-7 id="9" title="Kapcsolatok"]' ); ?>
 
        
         <!-- Kapsolatok end -->
