@@ -100,7 +100,7 @@ header {
     display: none;
   }
 
-  /* When the screen is less than 660 pixels wide, hide all links, except for the logo. Show the link that contains should open and close the topnav (.icon) */
+  /* When the screen is less than 768 pixels wide, hide all links, except for the logo. Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 768px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -297,7 +297,7 @@ footer {
 
 /* footer end */
 
-/* front-page */
+/* product section */
 
 .bg-light {
   /*background-color: #f5f4f4 !important;*/
@@ -312,27 +312,22 @@ footer {
   padding: 6rem 0;
 }
 
-
-
-/* front-page end */
-
 /* product card */
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-  width: 300px;
-  height: 400px;
-  margin: auto;
+.product-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 400px;
+  height: 420px;
+  margin: 10px auto;
   text-align: center;
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
 }
 
-.card:hover{
+.product-card:hover{
   transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.card button {
+.product-card button {
   border: none;
   outline: 0;
   padding: 12px;
@@ -344,11 +339,18 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   font-size: 18px;
 }
 
-.card button:hover {
+.product-card button:hover {
   opacity: 0.7;
 }
 
+@media screen and (max-width: 768px) {
+  .product-card {
+    width: 320px;
+  }
+}
 /* product card end */
+
+/* product section end */
 
 
 /* Style all font awesome icons 
