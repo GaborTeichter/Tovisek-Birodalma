@@ -104,7 +104,7 @@
             <!-- Navigation bar end -->
 
             <!--<div class="welcome-header">-->
-                <div class="jumbotron welcome-header">
+                <div class="welcome-header">
                     <h1 class="display-4 masthead-heading text-uppercase">Tövisek Birodalma</h1>
                     <p class="lead masthead-subheading">Üdvözöllek az oldalamon. Nézd meg a termékeinket vagy kövess minket facebookon!</p>
                     <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#termekek">Vásárlás</a>

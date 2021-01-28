@@ -53,21 +53,23 @@
                 </div>
                
                 <div class="row">
-                    <div class="card">
-                        <img src="wp-content/themes/cactusbasic/assets/img/kaktusz-card.jpg" alt="kaktusz-card.jpg" style="width:100%">
-                        <h1>Kaktuszok</h1>
-                        <p>Tekintsd meg kaktuszaink széles választékát!</p>
-                        <p><button>Megnézem</button></p>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="card product-card">
+                            <img src="wp-content/themes/cactusbasic/assets/img/kaktusz-card.jpg" alt="kaktusz-card.jpg" style="width:100%">
+                            <h1>Kaktuszok</h1>
+                            <p>Tekintsd meg kaktuszaink széles választékát!</p>
+                            <p><button>Megnézem</button></p>
+                        </div>
                     </div>
-                
-                    <div class="card">
-                        <img src="wp-content/themes/cactusbasic/assets/img/pozsgas-card.jpg" alt="pozsgas-card.jpg" style="width:100%">
-                        <h1>Pozsgások</h1>
-                        <p>Tekintsd meg pozsgásaink széles választékát!</p>
-                        <p><button>Megnézem</button></p>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="card product-card">
+                            <img src="wp-content/themes/cactusbasic/assets/img/pozsgas-card.jpg" alt="pozsgas-card.jpg" style="width:100%">
+                            <h1>Pozsgások</h1>
+                            <p>Tekintsd meg pozsgásaink széles választékát!</p>
+                            <p><button>Megnézem</button></p>
+                        </div>
                     </div>
                 </div> 
-        
             </div>
         </section>
         <!-- Termékek end -->
