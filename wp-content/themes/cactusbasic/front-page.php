@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-md-12">
                 
-                        <blockquote class="blockquote text-muted">
+                        <blockquote class="blockquote text-muted text-center">
                         <p>Ha kedvező áron, nagy gonddal és szakértelemmel nevelt kaktuszokat keres, akkor ez az ön oldala!  
                         Mindent megteszünk, hogy a legjobb termékekkel szolgálhassunk vevőink számára, kínálatunk folyamatosan bővül! 
                         Forduljon hozzánk bizalommal!</p>
@@ -76,12 +76,13 @@
         <div class="container">
             <div class="text-center">
             <h1>Kövess minket!</h1>
+            <div class="text-center">
+                <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451" target="_blank"><button type="button" class="btn btn-primary btn-lg button1">Facebook</button></a>
+            </div>
             </div>
         </div>
         <div class="container-fluid facebook-section p-3 my-3">
-            <div class="text-center">
-                <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451" target="_blank"><button type="button" class="btn btn-primary btn-lg">Facebook</button></a>
-            </div>
+            
         </div>
 
         <!-- Facebook section end -->

@@ -88,6 +88,7 @@
                             'items' => '<a id="" class="nav-link">%3$s</a>'
                         )
                     ); */ 
+
                 ?> 
                 <a href="index.php">Főoldal</a>
                 <a href="#rolunk">Rólunk</a>
@@ -99,6 +100,7 @@
                     <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
                 </a>
             </div>
+        
             <!-- Navigation bar end -->
 
             <!--<div class="welcome-header">-->
