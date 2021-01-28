@@ -16,18 +16,8 @@ $(document).ready(function () {
     });
 });
 
-/*
-//Google Map API
-function myMap() {
-  var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-  };
-  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-  }
-*/
-  
-  //Coming soon
+
+//Coming soon
   
   // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
