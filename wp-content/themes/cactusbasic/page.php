@@ -2,21 +2,21 @@
     get_header();
 ?>
 
-<article class="container px-3 py-5 p-md-5">
+<div class="main px-3 py-5 p-md-5">
 
     <?php 
-        if ( have_posts() ){
+        if (have_posts()):
+            while (have_posts()) : the_post(); ?>
 
-            while ( have_posts() ) {
-                the_post();
-                the_content( 'template-parts/container', 'page' );
-            }
-
-        }
+            <?php wp_list_pages(); ?>
+            <h2><?php the_title(); ?></h2>
+            <?php the_content();
+            
+            endwhile;
+		endif; ?>
     
-    ?>
 
-</article>
+</div>
 
 <?php
     get_footer();
