@@ -5,7 +5,7 @@
         <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <h5 class="text-uppercase">Weboldal</h5>
+                <h5 class="text-uppercase mb-3">Weboldal</h5>
 
                 <ul class="list-unstyled mb-0">
                     <li>
@@ -23,7 +23,7 @@
                 </ul>    
             </div>
         <div class="col-sm-4">
-                <h5 class="text-uppercase">Információk</h5>
+                <h5 class="text-uppercase mb-3">Információk</h5>
 
                 <ul class="list-unstyled mb-0">
                     <li>
@@ -40,8 +40,8 @@
                     </li>
                 </ul>
         </div>
-        <div class="col-sm-4">
-                 <h5 class="text-uppercase mb-0">Kapcsolatok</h5>
+        <div class="col-sm-4 footer-contacts">
+                 <h5 class="text-uppercase mb-3">Kapcsolatok</h5>
                     
                 <ul class="list-unstyled">
                     <li>
@@ -51,7 +51,9 @@
                         <p><i class="fa fa-phone mr-3"></i>06 (20) 551 6214</p>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451" class="fb-icon" target="_blank">
+                            <i class="fa fa-facebook mr-3"></i>
+                        </a>
                     </li>
                 </ul>
         </div>
