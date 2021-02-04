@@ -33,6 +33,12 @@
                         <a href="#!" class="footer-link">Adatvédelmi Szabályzat</a>
                     </li>
                     <li>
+                        <a href="#!" class="footer-link">Sütik (cookie) kezelése</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="footer-link">Impresszum</a>
+                    </li>
+                    <li>
                         <a href="#!" class="footer-link">Fizetési módok</a>
                     </li>
                     <li>
