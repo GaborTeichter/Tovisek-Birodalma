@@ -2,7 +2,7 @@
     get_header();
 ?>
 
-<div class="main px-3 py-5 p-md-5">
+<div class="main">
 
     <?php 
         if (have_posts()):

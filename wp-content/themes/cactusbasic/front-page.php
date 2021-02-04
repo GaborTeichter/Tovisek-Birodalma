@@ -58,7 +58,7 @@
                             <img src="wp-content/themes/cactusbasic/assets/img/kaktusz-card.jpg" alt="kaktusz-card.jpg" style="width:100%">
                             <h1>Kaktuszok</h1>
                             <p>Tekintsd meg kaktuszaink széles választékát!</p>
-                            <p><button>Megnézem</button></p>
+                            <p><a class="btn" href="#termekek" role="button">Megnézem</a></p>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6">
@@ -66,7 +66,7 @@
                             <img src="wp-content/themes/cactusbasic/assets/img/pozsgas-card.jpg" alt="pozsgas-card.jpg" style="width:100%">
                             <h1>Pozsgások</h1>
                             <p>Tekintsd meg pozsgásaink széles választékát!</p>
-                            <p><button>Megnézem</button></p>
+                            <p><a class="btn" href="#termekek" role="button">Megnézem</a></p>
                         </div>
                     </div>
                 </div> 

@@ -100,8 +100,8 @@ header {
     display: none;
   }
 
-  /* When the screen is less than 768 pixels wide, hide all links, except for the logo. Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 768px) {
+  /* When the screen is less than 830 pixels wide, hide all links, except for the logo. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 830px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -110,7 +110,7 @@ header {
   }
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 830px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -142,7 +142,7 @@ header {
   }
 
   .topnav .icon:hover {
-    color: #eee;
+    color: #fff;
   }
 
   .animated-icon span {
@@ -228,12 +228,6 @@ header {
   flex-flow: column;
 }
 
-.main-title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-}
-
-
 .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
@@ -266,10 +260,165 @@ h3 {
 /*
  Main content
 */
+
 .main {
   min-height: 50%;
   margin-bottom: 25px;
 }
+
+/* product section */
+
+.bg-light {
+  /*background-color: #f5f4f4 !important;*/
+  background-image: url("./assets/img/wave.svg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+.page-section {
+  padding: 6rem 0;
+}
+
+/* product card */
+.product-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 520px;
+  height: 540px;
+  margin: 15px auto;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Media screen queries: >=Full HD, Laptop L, Laptop, Tablet & Smartphone */
+@media screen and (min-width: 1920px) {
+  .product-card {
+    width: 550px;
+    height: 570px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .product-card {
+    width: 460px;
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .product-card {
+    width: 400px;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .product-card {
+    width: 340px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-card {
+    width: 300px;
+    height: 340px;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .product-card {
+    width: 270px;
+    height: 320px;
+    margin: 25px auto;
+  }
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.product-card .btn {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: #f8f8ff;
+  background-color: #59886b;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.product-card .btn:hover {
+  background-color: #4682b4;
+  color: #fff;
+  transition: all .30s ease-in-out;
+}
+/* product card end */
+
+/* product section end */
+
+/* Facebook section */
+.facebook-section{
+  background-image: url("./assets/img/facebook-section.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  object-fit: fill;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+}
+
+/* Follow Us button */
+.button1{
+  width: 250px;
+}
+
+/* Facebook section end*/
+
+/* Contact-btn */
+
+.contact-btn{
+  background-color: #0275d8;
+  border: none;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  width: 20%;
+  height: 12%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact-btn:hover{
+  background-color: #095394;;
+  transition: all .30s ease-in-out;
+}
+
+/* Contact-btn end */
+
+/* Set a specific color for each brand */
+
+/* 
+  Main content end 
+*/
 
 /* 
  Footer
@@ -295,111 +444,29 @@ footer {
   color: #ffc85c;
 }
 
-/* footer end */
-
-/* product section */
-
-.bg-light {
-  /*background-color: #f5f4f4 !important;*/
-  background-image: url("./assets/img/wave.svg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
-
-.page-section {
-  padding: 6rem 0;
-}
-
-/* product card */
-.product-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 400px;
-  height: 420px;
-  margin: 10px auto;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
-
-.product-card:hover{
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
-
-.product-card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #59886b;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-.product-card button:hover {
-  opacity: 0.7;
-}
-
-@media screen and (max-width: 768px) {
-  .product-card {
-    width: 320px;
-  }
-}
-/* product card end */
-
-/* product section end */
-
-
- /*Add a hover effect if you want */
-.fa-facebook:hover {
-  opacity: 0.7;
-}
-
-/* Set a specific color for each brand */
-
-  
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+.fb-icon .fa-facebook {
+  background: #4682b4;
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  font-size: 24px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
-} 
-
-
-/* Style all font awesome icons end */
-
-
-/* Contact-btn */
-
-.contact-btn{
-  background-color: #0275d8;
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 4px;
-  width: 20%;
-  height: 12%;
-  cursor: pointer;
-  border-radius: 4px;
+  color: #f8f8ff;
+  box-shadow: 0 2px 4px 0 rgba(163, 175, 179, 0.9);
+  border-radius: 50px;
 }
 
-.contact-btn:hover{
-  background-color: #095394;;
-  color: white;
+.fb-icon .fa-facebook:hover {
+  background: #0275d8;
+  color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(240, 236, 236, 0.8), 0 8px 16px 0 rgba(221, 216, 216, 0.95);
+  transition: all .30s ease-in-out;
 }
 
-/* Contact-btn end */
+/* 
+  Footer end 
+*/
 
 /* Comming soon */
 
@@ -452,32 +519,6 @@ hr {
 }
 
 /* Conming soon end */
-
-/* Facebook section */
-.facebook-section{
-  background-image: url("./assets/img/facebook-section.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
-  background-size: cover;
-  object-fit: fill;
-  width: 100%;
-  height: 250px;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  
-}
-
-/* Follow Us button */
-.button1{
-  width: 250px;
-}
-
-/* Facebook section end*/
 
 /* FAQ page */
 .faq-nav {
