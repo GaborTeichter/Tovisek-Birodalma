@@ -2,7 +2,28 @@
     get_header();
 ?>
 
-
+<!--<div class="welcome-header">-->
+<div id="intro" class="welcome-header">
+    <div class="condatiner-fluid d-flex align-items-center justify-content-center h-100">
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-10">
+                <!-- Welcome title -->
+                <h1 class="display-4 masthead-heading text-uppercase pt-5 mb-3">Tövisek Birodalma</h1>
+                <!-- Divider -->
+                <hr class="hr-light">
+                <!-- Welcome text -->
+                <p class="lead masthead-text">Üdvözöllek az oldalamon. Nézd meg a termékeinket vagy kövess minket facebookon!</p>
+                <!-- Links -->
+                <div class="intro-links mb-3">
+                    <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger mr-2" href="#termekek">Vásárlás</a>
+                    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger mr-2" href="https://www.facebook.com/T%C3%B6visek-Birodalma-108672437567451" target="_blank">
+                    Facebook</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--</div>-->
 
 <!-- Main content -->
 <div class="main container-fluid">
