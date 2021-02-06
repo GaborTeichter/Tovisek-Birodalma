@@ -43,7 +43,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /Tovisek-Birodalma/index.php [L]
 </IfModule>
 
-# END WordPress (add new settings under this line!!!)
+# END WordPress
 
 # 404.php setting
 ErrorDocument 404 /404.php

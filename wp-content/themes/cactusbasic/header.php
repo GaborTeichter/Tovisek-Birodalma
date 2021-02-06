@@ -73,32 +73,27 @@
         <header>
             <!--Navigation bar -->
             <div class="topnav" id="topNavbar">
-                <a class="navbar-brand" href="index.php">
-                    Tövisek Birodalma
-                </a>
+                <nav>
+                    <ul class="menu">
+                    <a class="navbar-brand" href="index.php"><?php bloginfo('name'); ?></a>
 
-                <?php 
-                    /* wp_nav_menu(
-                        array(
-                            'menu' => 'primary',
-                            'theme_location' => 'Desktop Primary',
-                            'container' => 'div',
-                            'container_class' => '',
-                            'container_id' => '',
-                            'items' => '<a id="" class="nav-link">%3$s</a>'
-                        )
-                    ); */ 
+                    <?php wp_list_pages("title_li="); ?>
+                    
+                    <li><a href="#rolunk">Rólunk</a></li>
+                    <li><a href="#kapcsolatok">Kapcsolatok</a></li>
+                        <!--<li><a class="navbar-brand" href="index.php">Tövisek Birodalma</a></li>
 
-                ?> 
-                <a href="index.php">Főoldal</a>
-                <a href="#rolunk">Rólunk</a>
-                <a href="#kapcsolatok">Kapcsolatok</a>
-                <a href="#termekek">Termékek</a>
-                <a href="#gyik">GYIK</a>
-                <a href="wp-content/themes/cactusbasic/blog.php">Blog</a>
-                <a href="javascript:void(0);" class="icon" onclick="hamburger()">
-                    <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
-                </a>
+                        <li><a href="index.php">Főoldal</a></li>
+                        <li><a href="#rolunk">Rólunk</a></li>
+                        <li><a href="#kapcsolatok">Kapcsolatok</a></li>
+                        <li><a href="#termekek">Termékek</a></li>
+                        <li><a href="#gyik">GYIK</a></li>
+                        <li><a href="wp-content/themes/cactusbasic/blog.php">Blog</a></li></li>-->
+                        <li><a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                            <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
+                        </a>
+                    </ul>
+                </nav>
             </div>
         
             <!-- Navigation bar end -->
