@@ -65,6 +65,14 @@ header {
     background-color: #eee; 
 }
 
+header ul {
+  list-style: none;
+}
+
+header ul li.current_page_item a {
+  color: #ffc85c;
+}
+
 /* Menu */
 .topnav {
     background-color: #59886b;
