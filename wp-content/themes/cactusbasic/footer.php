@@ -1,3 +1,4 @@
+<button class="toTopBtn" title="Scroll to top"><i class="fa fa-arrow-up"></i></button>
 <!-- Footer content -->
 <footer class="page-footer pt-3">
 

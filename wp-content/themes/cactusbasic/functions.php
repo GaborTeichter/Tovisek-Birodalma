@@ -10,7 +10,7 @@ function cactusbasic_theme_support(){
 add_action('after_setup_theme', 'cactusbasic_theme_support');
 
 // Menus
-function cactusbasic_menus(){
+/*function cactusbasic_menus(){
     
     $locations = array(
         'primary' => "Primary Menu",
@@ -21,7 +21,17 @@ function cactusbasic_menus(){
 
 }
 
-add_action('init', 'cactusbasic_menus');
+add_action('init', 'cactusbasic_menus');*/
+
+function wpb_custom_new_menu() {
+    register_nav_menus(
+      array(
+        'primary-menu' => __( 'Primary Menu' ),
+        'footer-menu' => __( 'Footer Menu' )
+      )
+    );
+  }
+  add_action( 'init', 'wpb_custom_new_menu' );
 
 
 

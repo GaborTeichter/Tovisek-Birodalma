@@ -4,7 +4,7 @@
 
 <?php if(have_posts()) : ?>
 
-  <?php while (have_posts()) : the_post(): ?>
+  <?php while (have_posts()) : the_post(); ?>
 
     <div class="bgimg">
       <div class="topleft">
@@ -20,9 +20,9 @@
       </div>
     </div>
     
-  <?php endwhile: ?>
+  <?php endwhile; ?>
 
-<?php endif: ?>
+<?php endif; ?>
 
 <?php 
     get_footer();

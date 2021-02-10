@@ -110,13 +110,13 @@
 
         <!-- Facebook section end -->
 
-         <!-- Kapcsolatok -->
-        
+        <!-- Contact -->
+        <section class="page-section" id="kapcsolat">
             
-        <?php echo do_shortcode( '[contact-form-7 id="9" title="Kapcsolatok"]' ); ?>
+            <?php echo do_shortcode( '[contact-form-7 id="9" title="Kapcsolat"]' ); ?>
 
-       
-        <!-- Kapsolatok end -->
+        </section>
+        <!-- Contact end -->
 </div>
 
 <!-- Footer section -->
