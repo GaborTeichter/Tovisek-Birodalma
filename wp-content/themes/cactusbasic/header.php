@@ -72,30 +72,48 @@
         <!-- Header section -->
         <header>
             <!--Navigation bar -->
-            <div class="topnav" id="topNavbar">
+            <!-- <div class="topnav" id="topNavbar">
                 <nav>
-                    <ul class="menu">
-                    <a class="navbar-brand" href="index.php"><?php bloginfo('name'); ?></a>
-
-                    <?php wp_list_pages("title_li="); ?>
-                    
-                    <li><a href="#rolunk">Rólunk</a></li>
-                    <li><a href="#kapcsolatok">Kapcsolatok</a></li>
-                        <!--<li><a class="navbar-brand" href="index.php">Tövisek Birodalma</a></li>
-
+                    <ul class="menu-list">
+                      <li>
+                        <a class="navbar-brand" href="http://localhost/Tovisek-Birodalma/index.php">Tövisek Birodalma</a>
+                      </li>
+                        <li><a class="navbar-brand" href="index.php">Tövisek Birodalma</a></li>
                         <li><a href="index.php">Főoldal</a></li>
                         <li><a href="#rolunk">Rólunk</a></li>
                         <li><a href="#kapcsolatok">Kapcsolatok</a></li>
                         <li><a href="#termekek">Termékek</a></li>
                         <li><a href="#gyik">GYIK</a></li>
-                        <li><a href="wp-content/themes/cactusbasic/blog.php">Blog</a></li></li>-->
+                        <li><a href="wp-content/themes/cactusbasic/blog.php">Blog</a></li></li>
                         <li><a href="javascript:void(0);" class="icon" onclick="hamburger()">
-                            <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
-                        </a>
+                              <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
+            </div> -->
+            <div class="topnav" id="topNavbar">
+              <nav>
+                <ul class="menu">
+                  <li>
+                    <a class="navbar-brand" href="http://localhost/Tovisek-Birodalma/index.php">Tövisek Birodalma</a>
+                  </li>
+
+                  <?php
+                    wp_nav_menu( array( 
+                      'theme_location' => 'primary-menu', 
+                      'container_class' => 'topnav'
+                    ));
+                  ?>
+                  
+                  <li><a href="javascript:void(0);" class="icon" onclick="hamburger()">
+                        <div class="animated-icon"><span></span><span></span><span></span><span></span></div>
+                      </a>
+                  </li>
+
+                </ul>
+              </nav>
             </div>
-        
             <!-- Navigation bar end -->
 
 </header>
